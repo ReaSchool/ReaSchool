@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReaSchool - Educação de Qualidade</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 0;
+            padding: 10px 0;
+            background: #0056b3;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            background: #fff;
+            margin: 20px;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background: #007BFF;
+            color: #fff;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 5px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>ReaSchool</h1>
+    <p>Educação de Qualidade para Todos</p>
+</header>
+
+<nav>
+    <a href="#sobre">Sobre Nós</a>
+    <a href="#servicos">Serviços</a>
+    <a href="#inscricao">Inscrição</a>
+    <a href="#contato">Contacto</a>
+</nav>
+
+<section id="sobre">
+    <h2>Sobre Nós</h2>
+    <p>A ReaSchool é uma instituição de ensino dedicada à explicação de conteúdos escolares, abrangendo o ensino fundamental, médio, pré-universitário e universitário.</p>
+</section>
+
+<section id="servicos">
+    <h2>Serviços</h2>
+    <p>Oferecemos modalidades de explicação:</p>
+    <ul>
+        <li>Explicação Online</li>
+        <li>Explicação Presencial no Centro</li>
+        <li>Explicação a Domicílio</li>
+    </ul>
+    <p>Nossos pacotes de ensino incluem:</p>
+    <h3>Alfabetização</h3>
+    <p>Crianças e adultos</p>
+    <h3>Ensino Fundamental</h3>
+    <p>1ª a 6ª séries</p>
+    <h3>Ensino Secundário</h3>
+    <p>7ª a 12ª séries (primeiro e segundo ciclo)</p>
+    <h3>Universitário</h3>
+    <p>Cursos de Geociências, Matemática, Física, Química, Estatística, Contabilidade e Biologia</p>
+</section>
+
+<section id="inscricao">
+    <h2>Inscrição</h2>
+    <p>Para se inscrever, preencha o formulário abaixo:</p>
+    <form>
+        <label for="nome">Nome Completo:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+        
+        <label for="modalidade">Modalidade:</label><br>
+        <select id="modalidade" name="modalidade" required>
+            <option value="online">Explicação Online</option>
+            <option value="presencial">Presencial no Centro</option>
+            <option value="domicilio">A Domicílio</option>
+        </select><br><br>
+        
+        <label for="curso">Curso/Disciplina:</label><br>
+        <input type="text" id="curso" name="curso" required><br><br>
+        
+        <label for="observacoes">Observações:</label><br>
+        <textarea id="observacoes" name="observacoes" rows="4" cols="50"></textarea><br><br>
+        
+        <input type="submit" value="Inscrever">
+    </form>
+</section>
+
+<section id="contato">
+    <h2>Contacto</h2>
+    <p>Email: contato@reascool.com.pt</p>
+    <p>Telefone: 820318267, 841502159, 878502159 (Disponíveis para chamadas e WhatsApp)</p>
+</section>
+
+<footer>
+    <p>&copy; 2023 ReaSchool. Todos os direitos reservados.</p>
+</footer>
+
+</body>
+</html>
